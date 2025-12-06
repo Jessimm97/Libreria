@@ -1,10 +1,10 @@
-#📚 Librería React
+# 📚 Librería React
 
 Este proyecto es una aplicación de biblioteca desarrollada con React.
 Permite a los usuarios explorar libros, ver detalles, rentar libros y
 gestionar los libros rentados.
 
-##✨ Características
+## ✨ Características
 
 -   Inicio: Página principal con lista de libros y filtrado por
     categorías.
@@ -14,7 +14,7 @@ gestionar los libros rentados.
     rentados.
 -   Persistencia: Los libros rentados se guardan en localStorage.
 
-##📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
     public/
       ├── index.html
@@ -53,7 +53,7 @@ gestionar los libros rentados.
       ├── App.js
       └── index.js
 
-##📜 Scripts Disponibles
+## 📜 Scripts Disponibles
 
 npm start
 
@@ -67,7 +67,7 @@ npm run build
 
 Construye la aplicación para producción en la carpeta build.
 
-##🛠 Instalación
+## 🛠 Instalación
 
 1.  Clona este repositorio.
 2.  Ejecuta npm install para instalar las dependencias.
