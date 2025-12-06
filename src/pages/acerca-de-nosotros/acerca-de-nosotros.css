@@ -1,0 +1,32 @@
+.acerca-de-nosotros {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.acerca-de-nosotros h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.acerca-de-nosotros h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+  color: #555;
+}
+
+.acerca-de-nosotros p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.acerca-de-nosotros ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.acerca-de-nosotros ul li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 5px;
+}

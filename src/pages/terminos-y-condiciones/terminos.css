@@ -1,0 +1,27 @@
+.terminos {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.terminos__title {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.terminos__text {
+  margin-bottom: 16px;
+}
+
+.terminos__list {
+  list-style: disc;
+  padding-left: 40px;
+}
+
+.terminos__list li {
+  margin-bottom: 8px;
+}

@@ -1,0 +1,87 @@
+.header {
+  background-color: #2aa4Bf;
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__item {
+  margin: 0 1rem;
+}
+
+.header__link {
+  background: none; /* Elimina el fondo blanco */
+  border: none; /* Elimina el borde */
+  position: relative; /* Necesario para posicionar el contador */
+  text-decoration: none;
+  color: #691e06;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.header__link:hover {
+  color: #691e06;
+  background-color: #e9ecef;
+  border-radius: 10px;
+}
+
+.header__link--active {
+  font-weight: bold;
+  color: #691e06;
+
+}
+.header__search-input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.header__search-button {
+  background-color: #bb4d00;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.header__search-button:hover {
+  background-color: #894b29;
+}
+.header__reset-button {
+  background-color: #691e06;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header__basket-count {
+  background-color: #f44336;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+}

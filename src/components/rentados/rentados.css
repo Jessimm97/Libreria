@@ -1,0 +1,83 @@
+.rentados {
+  padding: 16px;
+}
+.rentados-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Oscurece el fondo */
+  z-index: 999; /* Asegura que esté detrás del modal */
+}
+.rentados-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Asegura que esté encima del overlay */
+  width: 600px;
+  
+  margin: 0 auto;
+}
+.rentados-modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.rentados__list {
+  list-style: none;
+  padding: 0;
+}
+
+.rentados__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.rentados__image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+
+.rentados__details {
+  flex: 1;
+}
+
+.rentados__title {
+  font-size: 1rem;
+  margin: 0 0 8px;
+}
+.rentados__author {
+  font-size: 0.875rem;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+.rentados__remove-button {
+  background-color: #bf4904;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.rentados__remove-button:hover {
+  background-color: #894b29;
+}

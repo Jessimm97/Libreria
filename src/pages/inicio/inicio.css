@@ -1,0 +1,11 @@
+.inicio {
+  max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 0 16px; /* Opcional: agrega un relleno lateral */
+}
+
+.inicio__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
