@@ -12,6 +12,7 @@
 
 .header__nav {
   display: flex;
+  margin-right: 40px;
   justify-content: space-around;
   align-items: center;
 }
