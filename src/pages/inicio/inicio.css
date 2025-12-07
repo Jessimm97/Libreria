@@ -1,7 +1,8 @@
 .inicio {
-  max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
-  margin: 0 auto; /* Centra el contenedor horizontalmente */
-  padding: 0 16px; /* Opcional: agrega un relleno lateral */
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 0 16px;
+  margin-top: 60px;
 }
 
 .inicio__grid {
